@@ -1,0 +1,19 @@
+{
+  "name": "st-address-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ievgeniya-kn/st-address-book.git"
+  },
+  "author": "Ievgeniya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ievgeniya-kn/st-address-book/issues"
+  },
+  "homepage": "https://github.com/Ievgeniya-kn/st-address-book#readme"
+}
