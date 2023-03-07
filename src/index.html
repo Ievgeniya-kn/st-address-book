@@ -1,15 +1,30 @@
 <body>
     <H1>Hello World!</H1>
-    <script>alert("Test");</script>
+    <!-- <script>alert("Test");</script> -->
     <script>
+        async function b() {
+            return 1
+        }
+
+        async function a(){
         let url = 'https://cdn.sttwins.com/static/book/data_ru_new.json?r=0.05';
+              
+        let listST = await fetch(url)
+        //  fetch(url)
+        //     .then(res => {listST = res.json()})
+        //     .catch(err => { throw err });
 
-        fetch(url)
-            .then(res => res.json())
-            .then(out =>
-                console.log('Checkout this JSON! ', out))
-            .catch(err => { throw err });
+        console.log(await listST.json())
 
+        // let list1 = await (await fetch(url)).json()
+        // console.log(list1) 
+        const b1 = b()
+        console.log(b1)
+        }
+        a()
+
+      
+           
     </script>
 
 
